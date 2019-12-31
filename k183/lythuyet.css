@@ -1,0 +1,51 @@
+    .size {
+    font-size: 100px;
+}
+
+#id1 {
+    font-size: 50px;
+    background-color: brown;
+}
+
+.maudo {
+    color: red;
+}
+
+#id2 {
+    height: 380px;
+    width: 800px;
+    background-color: violet;
+    font-size: 75px;
+}
+
+
+/* cho tat ca cac thẻ có padding và content bằng 0 hết */
+
+
+/* thẻ background-color: chỉ tô màu cho phần content và padding */
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    /* lấy link trực tiếp ảnh */
+    background-image: url(https://as2.ftcdn.net/jpg/01/30/76/31/500_F_130763167_YyKakYwU9mGqC6jPa7JkGEohuqhoVn4u.jpg);
+    /* không cho lặp lại ảnh */
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    color: red;
+    padding: 10px;
+    background-color: black;
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin-top: 150px;
+    ;
+    /* border-top(left, right,..) : độ_dày kiểu_viền màu-viền */
+    /* margrin : khoang cach giữa các phần tử */
